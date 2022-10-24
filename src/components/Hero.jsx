@@ -8,7 +8,7 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph} ml-2`}>
+          <p className={`${styles.paragraphRosa} ml-2`}>
             <span className="text-white">10%</span> De Desconto {" "}
             <span className="text-white">nas </span> Renovações
           </p>
@@ -27,7 +27,7 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[48px] text-[42px] text-black ss:leading-[100.8px] leading-[75px] w-full">
           Em Tratamento Capilar.
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraphRosa} max-w-[470px] mt-5`}>
           Venha se encantar com os 
           Our team of experts uses a methodology to identify the credit cards
           most likely to fit your needs. We examine annual percentage rates,

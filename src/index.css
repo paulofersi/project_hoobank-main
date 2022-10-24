@@ -12,6 +12,9 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --cor-primaria: #FFF2F9;
+  --cor-secundaria: #ECC1C8;
+  --cor-terciaria: #AF3C57;
 }
 
 * {
@@ -110,6 +113,7 @@
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
+  color: var(--cor-primaria);
 }
 
 .feedback-container .feedback-card:last-child {
@@ -117,7 +121,7 @@
 }
 
 .feedback-card {
-  background: transparent;
+  background: var(--cor-terciaria);
 }
 
 .feedback-card:hover {
